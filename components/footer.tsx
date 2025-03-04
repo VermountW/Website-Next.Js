@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-white py-12 border-t border-gray-200">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-14 gap-8">
           {/* Logo Section */}
           <div className="md:col-span-3 sm:col-span-4">
             <div className="footer-logo">
@@ -23,7 +23,7 @@ export default function Footer() {
           </div>
           
           {/* Social Media Section */}
-          <div className="md:col-span-2 md:col-start-8 sm:col-span-4">
+          <div className="md:col-span-2 md:col-start-11 sm:col-span-4">
             <h3 className="text-lg font-semibold mb-4 text-black">Social Media</h3>
             <ul className="space-y-2">
               <li>
