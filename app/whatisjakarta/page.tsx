@@ -30,11 +30,19 @@ const WhatIsJakarta = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Main Content */}
             <div className="md:col-span-3 space-y-16">
+              <article className="space-y-16">
               {/* Blog Post 1 */}
-              <article>
-                <Image src={capitalcity} alt="Jakarta The Capital City" width={800} height={500} className="w-full h-[500px] object-cover" />
-                <div className="mt-10">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-800">Jakarta The Capital City</h2>
+              <div className="space-y-6">
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">Jakarta The Capital City</h2>
+                <div className="relative w-full h-[500px]">
+                <Image 
+                src={capitalcity} 
+                alt="Jakarta The Capital City" 
+                fill
+                className="object-cover rounded-lg" 
+                />
+                </div>
+                <div className="mt-6">
                   <div className="space-y-4 text-black text-xl text-justify leading-relaxed">
                     <p>
                     The Republic of Indonesia's capital city is called Jakarta. Over 10 million residents from many ethnic groups and regions of Indonesia live in the enormous, expansive metropolis of Jakarta. The number rises during the day as commuters head into the city for work, and it plummets at night when they all head out.
@@ -44,25 +52,34 @@ const WhatIsJakarta = () => {
                     </p>
                   </div>
                 </div>
-              </article>
+              </div>
 
               {/* Blog Post 2 */}
-              <article>
-                <Image src={batavia} alt="History of Jakarta" width={800} height={500} className="w-full h-[500px] object-cover" />
-                <div className="mt-10">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-800">History Of Jakarta</h2>
-                  <div className="space-y-4 text-black text-xl text-justify leading-relaxed">
-                    <p>
-                    During the colonial era, Jakarta was intended to be constructed as a trading post for the English East India Company. in the time of Dutch Colony conflicted with the migrating Englishmen, after the city is win by the Dutch colony as the right to rule the city and they changed the name to Batavia.
-                    </p>
-                    <p>
-                    Trading activities drew traders from all over the region, primarily from China. Because of the trade and commercial activities, Batavia becomes one of the most values in that area in that time.
-                    </p>
-                    <p>
-                    The Indonesian nationalists surpassed the Dutch Colony by 1942. then is appoint the capital of city Indonesia. After a long 350 years under the Dutch colony, Indonesia finally declared its independence in 1945. Since then, Jakarta has rapidly grown. they start to develop it by building major highways, hotels and shopping malls becoming Being the nation’s center of government as well as its economic pillar.
-                    </p>
+              <div className="space-y-6">
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">History Of Jakarta</h2>
+                <div className = "relative w-full h-[500px]">
+                  <Image 
+                  src={batavia} 
+                  alt="History of Jakarta" 
+                  fill
+                  className="object-cover rounded-lg" 
+                  />
+                </div>
+                  <div className="mt-6">
+                    <div className="space-y-4 text-black text-xl text-justify leading-relaxed">
+                      <p>
+                      During the colonial era, Jakarta was intended to be constructed as a trading post for the English East India Company. in the time of Dutch Colony conflicted with the migrating Englishmen, after the city is win by the Dutch colony as the right to rule the city and they changed the name to Batavia.
+                      </p>
+                      <p>
+                      Trading activities drew traders from all over the region, primarily from China. Because of the trade and commercial activities, Batavia becomes one of the most values in that area in that time.
+                      </p>
+                      <p>
+                      The Indonesian nationalists surpassed the Dutch Colony by 1942. then is appoint the capital of city Indonesia. After a long 350 years under the Dutch colony, Indonesia finally declared its independence in 1945. Since then, Jakarta has rapidly grown. they start to develop it by building major highways, hotels and shopping malls becoming Being the nation’s center of government as well as its economic pillar.
+                      </p>
+                    </div>
                   </div>
                 </div>
+
               </article>
             </div>
 

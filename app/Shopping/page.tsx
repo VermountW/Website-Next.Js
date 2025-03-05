@@ -31,13 +31,13 @@ const ShoppingPage = () => {
                 <div className="space-y-6 text-black text-xl text-justify leading-relaxed">
                   <h2 className="text-3xl font-bold mb-6 text-gray-800">Do you Want Shopping?</h2>
                   <p>
-                    Shopping centers are spread all over Jakarta. You could find and buy anything in Jakarta, from the cheapest to the most expensive. Here are some recommended shopping centers you could visit.
+                    Shopping centers are spread all over Jakarta. You could find and buy anything in Jakarta, from the cheapest to the most expensive. Here are some recommended shopping centers you could visit :
                   </p>
                 </div>
 
                 {/* Shopping Mall 1 */}
                 <div className="space-y-6">
-                  <h2 className="text-3xl font-bold text-gray-800">1. Grand Indonesia</h2>
+                  <h2 className="text-3xl font-bold text-gray-800 mb-6">1. Grand Indonesia</h2>
                   <div className="relative w-full h-[500px] mb-6">
                     <Image 
                       src="/assets/img/grand.jpg" 
