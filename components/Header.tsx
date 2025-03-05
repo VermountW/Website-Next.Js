@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-md">
-      <nav className="container mx-auto px-4">
+      <nav className="container mx-auto max-w-7xl">
         <div className="flex justify-between items-center py-4">
           {/* Logo and Site Title */}
           <div className="flex items-center">
