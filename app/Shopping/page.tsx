@@ -17,7 +17,7 @@ const ShoppingPage = () => {
         <div className="absolute inset-0 bg-black/15"></div>
         <div className="relative h-full flex items-center justify-center text-center">
           <div className="text-white px-4">
-            <p className="text-6xl font-bold tracking-wider">Where to Shop ?</p>
+            <p className="text-6xl font-bold tracking-wider">Shop Paradise</p>
           </div>
         </div>
       </div>
@@ -26,14 +26,8 @@ const ShoppingPage = () => {
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Main Content */}
-            <div className="md:col-span-3 space-y-16">
+            <div className="md:col-span-3">
               <article className="space-y-16">
-                <div className="text-black text-xl text-justify leading-relaxed">
-                  <p>
-                    Shopping centers are spread all over Jakarta. You could find and buy anything in Jakarta, from the cheapest to the most expensive. Here are some recommended shopping centers you could visit :
-                  </p>
-                </div>
-
                 {/* Shopping Mall 1 */}
                 <div className="space-y-6">
                   <h2 className="text-3xl font-bold text-gray-800 mb-6">1. Grand Indonesia</h2>

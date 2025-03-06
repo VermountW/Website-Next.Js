@@ -17,7 +17,7 @@ const TraditionalFood = () => {
         <div className="absolute inset-0 bg-black/15"></div>
         <div className="relative h-full flex items-center justify-center text-center">
           <div className="text-white px-4">
-            <p className="text-6xl font-bold tracking-wider">What to Eat</p>
+            <p className="text-6xl font-bold tracking-wider">Delicious Discoveries</p>
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@ const TraditionalFood = () => {
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Main Content */}
-            <div className="md:col-span-3 space-y-16">
+            <div className="md:col-span-3">
               <article className="space-y-16">
                   <h2 className="text-3xl font-bold mb-6 text-gray-800">Traditional Food</h2>
                   <div className="text-black text-xl text-justify leading-relaxed">
@@ -53,7 +53,7 @@ const TraditionalFood = () => {
                 
                 {/* Food Item 2 */}
                 <div className="space-y-6">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-800">2. Ketoprak</h2>
+                  <h2 className="text-3xl font-bold mb-6 text-gray-800">2. Nasi Uduk</h2>
                   <div className="relative w-full h-[500px]">
                     <Image 
                       src="/assets/img/traditionalfood.jpg" 

@@ -29,7 +29,7 @@ const WhatIsJakarta = () => {
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Main Content */}
-            <div className="md:col-span-3 space-y-16">
+            <div className="md:col-span-3">
               <article className="space-y-16">
               {/* Blog Post 1 */}
               <div className="space-y-6">

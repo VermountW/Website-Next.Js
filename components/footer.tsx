@@ -26,22 +26,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-black">Social Media</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="https://www.instagram.com/whatisjakarta1/" className="text-black hover:text-[#5a91c7] ">
+                <Link href="https://www.instagram.com/whatisjakarta1/" className="inline-block text-black hover:text-[#5a91c7] transition duration-200 hover:translate-x-2">
                   Instagram
                 </Link>
               </li>
               <li>
-                <Link href="https://twitter.com/WhatisJakarta?t=Ox7I79Wei2qBkKH5V546Vg&s=09" className="text-black hover:text-[#5a91c7] ">
+                <Link href="https://twitter.com/WhatisJakarta?t=Ox7I79Wei2qBkKH5V546Vg&s=09" className="inline-block text-black hover:text-[#5a91c7] transition duration-200 hover:translate-x-2">
                   Twitter
                 </Link>
               </li>
               <li>
-                <Link href="https://www.tiktok.com/@whatisjakarta1" className="text-black hover:text-[#5a91c7] ">
+                <Link href="https://www.tiktok.com/@whatisjakarta1" className="inline-block text-black hover:text-[#5a91c7] transition duration-200 hover:translate-x-2">
                   Tiktok
                 </Link>
               </li>
               <li>
-                <Link href="mailto:" className="text-black hover:text-[#5a91c7] ">
+                <Link href="mailto:" className="inline-block text-black hover:text-[#5a91c7] transition duration-200 hover:translate-x-2">
                   Email
                 </Link>
               </li>
@@ -53,22 +53,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-black">Featured links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-black hover:text-[#5a91c7] ">
+                <Link href="/" className="inline-block text-black hover:text-[#5a91c7] transition duration-200 hover:translate-x-2">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/whatisjakarta" className="text-black hover:text-[#5a91c7] ">
+                <Link href="/whatisjakarta" className="inline-block text-black hover:text-[#5a91c7] transition duration-200 hover:translate-x-2">
                   What is Jakarta
                 </Link>
               </li>
               <li>
-                <Link href="/whattodo" className="text-black hover:text-[#5a91c7] ">
+                <Link href="/whattodo" className="inline-block text-black hover:text-[#5a91c7] transition duration-200 hover:translate-x-2">
                   What to Do
                 </Link>
               </li>
               <li>
-                <Link href="/whattoeat" className="text-black hover:text-[#5a91c7] ">
+                <Link href="/whattoeat" className="inline-block text-black hover:text-[#5a91c7] transition duration-200 hover:translate-x-2">
                   What to Eat
                 </Link>
               </li>
