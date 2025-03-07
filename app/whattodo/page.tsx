@@ -30,7 +30,7 @@ const ExploreSection = () => {
       </div>
 
 
-      <section className="site-section section-portfolio py-16">
+      <section className="site-section section-portfolio py-16 px-4">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-semibold">Explore Based on Your Interest</h2>

@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white shadow-md">
+    <header className="bg-white px-4">
       <nav className="container mx-auto max-w-7xl">
         <div className="flex justify-between items-center py-4">
           {/* Logo and Site Title */}
@@ -105,7 +105,7 @@ const Header = () => {
               What is Jakarta
             </Link>
             
-            <div>
+            <div className="py-4">
               <button 
                 onClick={toggleDropdown}
                 className="flex items-center justify-between w-full text-lg font-bold text-black hover:text-[#5a91c7] transition duration-200"

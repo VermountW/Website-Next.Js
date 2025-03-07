@@ -22,7 +22,7 @@ const TraditionalFood = () => {
         </div>
       </div>
       {/* Main Content and Sidebar Layout */}
-      <section className="py-16 px-4 md:px-0">
+      <section className="py-16 px-4">
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Main Content */}
@@ -102,7 +102,7 @@ const TraditionalFood = () => {
                         className="object-cover rounded-lg"
                       />
                     </div>
-                    <div className="w-[600px] h-[400px]">
+                    <div className="relative w-full h-[400px]">
                       <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10141.930919157612!2d106.6865601305234!3d-6.113948762943761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a02d9963fb003%3A0x1d231ede33d44861!2sRumah%20Makan%20Lembur%20Kuring!5e0!3m2!1sid!2stw!4v1672075528006!5m2!1sid!2stw" 
                         className="w-full h-full border-0 rounded" 
@@ -123,7 +123,7 @@ const TraditionalFood = () => {
                         className="object-cover rounded-lg"
                       />
                     </div>
-                    <div className="w-[600px] h-[400px]">
+                    <div className="relative w-full h-[400px]">
                       <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253818.94733328655!2d106.58163998056088!3d-6.274111139189813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1e3d05306511%3A0x820b6f7432af7bcd!2sBandar%20Djakarta!5e0!3m2!1sid!2stw!4v1672075603392!5m2!1sid!2stw" 
                         className="w-full h-full border-0 rounded" 
@@ -144,7 +144,7 @@ const TraditionalFood = () => {
                         className="object-cover rounded-lg"
                       />
                     </div>
-                    <div className="w-[600px] h-[400px]">
+                    <div className="relative w-full h-[400px]">
                       <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126920.7740075372!2d106.74266125139047!3d-6.227535550415616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f15f15800229%3A0x193158d993c78a6e!2sSate%20Khas%20Senayan!5e0!3m2!1sid!2stw!4v1672075940496!5m2!1sid!2stw" 
                         className="w-full h-full border-0 rounded" 
