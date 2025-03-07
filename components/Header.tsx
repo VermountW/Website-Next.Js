@@ -105,7 +105,7 @@ const Header = () => {
               What is Jakarta
             </Link>
             
-            <div className="py-4">
+            <div>
               <button 
                 onClick={toggleDropdown}
                 className="flex items-center justify-between w-full text-lg font-bold text-black hover:text-[#5a91c7] transition duration-200"
@@ -115,8 +115,8 @@ const Header = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              <div className={`pl-4 mt-2 space-y-2 overflow-hidden transition-all duration-500 ease-in-out ${isDropdownOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'}`}>
-                <Link href="/Culture" className="block text-lg font-bold text-black hover:text-[#5a91c7] transition duration-200 hover:translate-x-2">Culture</Link>
+              <div className={`pl-4 space-y-2 overflow-hidden transition-all duration-500 ease-in-out ${isDropdownOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'}`}>
+                <Link href="/Culture" className="mt-2 block text-lg font-bold text-black hover:text-[#5a91c7] transition duration-200 hover:translate-x-2">Culture</Link>
                 <Link href="/Nature" className="block text-lg font-bold text-black hover:text-[#5a91c7] transition duration-200 hover:translate-x-2">Nature</Link>
                 <Link href="/Shopping" className="block text-lg font-bold text-black hover:text-[#5a91c7] transition duration-200 hover:translate-x-2">Shopping</Link>
                 <Link href="/Action&sports" className="block text-lg font-bold text-black hover:text-[#5a91c7] transition duration-200 hover:translate-x-2">Adventure</Link>
