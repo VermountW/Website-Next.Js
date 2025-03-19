@@ -21,7 +21,7 @@ const Home = () => {
         <div className="relative h-full flex items-center justify-center text-center z-20">
           <div className="text-white px-4">
             <p className="text-3xl md:text-4xl mb-2 font-semibold">
-              My name is Vermount William
+              Capital City of Indonesia
             </p>
             <h1 className="text-5xl md:text-6xl font-bold tracking-wide">
               JAKARTA
