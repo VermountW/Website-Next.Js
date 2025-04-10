@@ -56,7 +56,7 @@ const News = () => {
               <article className="space-y-16">
                 <NewsArticle 
                   title="Jakarta New Transportation"
-                  imageSrc="/assets/img/News1.jpg"
+                  imageSrc="/img/News1.jpg"
                   content={articleContent}
                 />
               </article>
