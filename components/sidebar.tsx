@@ -41,7 +41,7 @@ const Sidebar = () => {
       {/* Sidebar Image */}
       <div className="mt-6">
         <Image
-          src="/assets/img/side.png"
+          src="/img/side.png"
           alt="Sidebar Image"
           width={300}
           height={200}
