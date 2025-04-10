@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Sidebar from '../../components/sidebar';
-import natureImage from '../../public/assets/img/Nature.jpg';
+import natureImage from '../../public/img/Nature.jpg';
 import Hero from '../../components/Hero';
 
 // Content data
